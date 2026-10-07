@@ -1,0 +1,21 @@
+﻿# do NOT commit game files (DMCA / community rules)
+*.tae
+*.hkx
+*.dcx
+*.bin
+*.anibnd
+*.behbnd
+*.bnd
+*.bdt
+*.bhd
+*.exe
+*.dll
+
+# OS / editor / python junk
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

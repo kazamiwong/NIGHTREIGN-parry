@@ -1,0 +1,14 @@
+row,excel_frames,skill_id,skill_name,bank,animation,our_window,mechanism,evidence
+拳/钩爪/中盾/刺剑格挡,5->6 (2),302,[Standard] Parry,a692,a692_040000,4->6,bank=600+92; 默认2帧族,行为图实解
+短剑格挡,5->8 (4),302,[Standard] Parry,a692,a692_042000,4->8,bank=600+92 × wepmotion20(Dagger),行为图实解+参数列验证
+曲剑格挡,5->6 (2),302,[Standard] Parry,a692,a692_042800,4->6,bank=600+92 × wepmotion28(Curved Sword),行为图实解+参数列验证
+小盾格挡,6->10 (5),302,[Standard] Parry,a692,a692_044800,5->10,bank=600+92 × wepmotion48(Small Shield),行为图实解+参数列验证
+小圆盾格挡,5->9 (5),303,[Standard] Buckler Parry,a693,a693_040000,4->9,bank=600+93,行为图实解+600+type规则
+卡利亚式奉还(正常),5->10 (6),305,[Magic] Carian Retaliation,a695,a695_040000,4->10,bank=600+95; 正常条目,行为图实解+600+type规则
+卡利亚式奉还(没蓝),7->8 (2),305,[Magic] Carian Retaliation,a695,a695_040005,6->8,bank=600+95; _NoMP条目,行为图实解+600+type规则
+黄金格挡(正常),5->7 (3),307,[Holy] Golden Parry,a697,a697_040000,4->7,bank=600+97; 正常条目,行为图实解+600+type规则
+黄金格挡(没蓝),7->8 (2),307,[Holy] Golden Parry,a697,a697_040005,5->10,同上(_NoMP),机制预测040005; xlsx该行疑误(应为6->10/5帧)
+风暴障壁(正常),5->9 (5),306,[Standard] Storm Wall,a696,a696_040000,4->9,bank=600+96; 正常条目,行为图实解+600+type规则
+风暴障壁(没蓝),6->10 (5),306,[Standard] Storm Wall,a696,a696_040005,5->10,bank=600+96; _NoMP条目,行为图实解+600+type规则
+托普斯力场(正常),5->8 (4),309,[Magic] Thops's Barrier,a699,a699_040000,4->8,bank=600+99; 正常条目,行为图实解+600+type规则
+托普斯力场(没蓝),7->10 (4),309,[Magic] Thops's Barrier,a699,a699_040005,6->10,bank=600+99; _NoMP条目,行为图实解+600+type规则
